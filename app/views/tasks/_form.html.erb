@@ -33,7 +33,7 @@
   </div>
   <div class="field">
     <%= f.label :member_id %><br>
-    <%= f.number_field :member_id %>
+    <%= f.select :member_id, options_for_select(@members) %>
   </div>
   <div class="field">
     <%= f.label :check %><br>

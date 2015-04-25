@@ -1,5 +1,6 @@
 class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
+  before_action :get_members, only: [:new, :create, :edit, :update]
 
   # GET /tasks
   # GET /tasks.json
@@ -67,6 +68,9 @@ class TasksController < ApplicationController
       @task = Task.find(params[:id])
     end
 
+    def get_members
+      @members = Member.all.map { |member| [member.name, member.id] }
+    end
     # Never trust parameters from the scary internet, only allow the white list through.
     def task_params
       params.require(:task).permit(:title, :description, :duration, :start, :end, :member_id, :check)
