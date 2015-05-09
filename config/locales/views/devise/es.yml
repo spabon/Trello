@@ -1,6 +1,20 @@
 es:
     activerecord:
         attributes:
-            user:
+            member:
                 name: "Nombre"
+                
+               
+    activerecord:
+        attributes:
+            task:
+                title: "Titulo"
+                duration: "Duración"
+                
+                
+                
+                
+                
     "Log In": "Autenticarse"
+    
+    

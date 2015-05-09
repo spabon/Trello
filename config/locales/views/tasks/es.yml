@@ -2,11 +2,15 @@ es:
     activerecord:
         attributes:
             task:
-                Title: "Titulo"
-                Duration: "Duración"
-                Start: "Fecha de Inicio"
-                End: "Fecha de Finalizacion"
-                Member: "Creado por"
-                Check: "Chequeado"
                 
+                duration: "Duración"
+                
+    "Title": "Titulo"           
     "Listing tasks": "Listado de Tareas"
+    "Duration": "Duracion"
+    "Start": "Iniciar"
+    "End": "Fin"
+    "Member": "Miembros"
+    "Check": "Estado"
+    "New Task": "Nueva Tarea"
+    

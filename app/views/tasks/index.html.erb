@@ -1,15 +1,15 @@
-<h1>Listing tasks</h1>
+<h1><%= t('Listing tasks') %></h1>
 
 <table>
   <thead>
     <tr>
-      <th>Title</th>
+      <th><%= t('Title') %></th>
 <!--      <th>Description</th> -->
-      <th>Duration</th>
-      <th>Start</th>
-      <th>End</th>
-      <th>Member</th>
-      <th>Check</th>
+      <th><%= t('Duration') %></th>
+      <th><%= t('Start') %></th>
+      <th><%= t('End') %></th>
+      <th><%= t('Member') %></th>
+      <th><%= t('Check') %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -23,9 +23,9 @@
         <td><%= task.end %></td>
         <td><%= task.member.name %></td>
         <td><%= task.check %></td>
-        <td><%= link_to 'Show', task %></td>
-        <td><%= link_to 'Edit', edit_task_path(task) %></td>
-        <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t('Show'), task %></td>
+        <td><%= link_to t('Edit'), edit_task_path(task) %></td>
+        <td><%= link_to t('Destroy'), task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -34,4 +34,4 @@
 <br>
 
 
-<%= link_to 'New Task', new_task_path %>
+<%= link_to t('New Task'), new_task_path %>

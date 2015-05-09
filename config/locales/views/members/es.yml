@@ -2,7 +2,14 @@ es:
     activerecord:
         attributes:
             member:
-             name: "Nombre"  
-                
+              
+             
+     
+     
+    "Name": "Nombre"            
     "Sing Up": "Autenticarse"
     "Sing In": "Entrar"
+    "Show": "Mostrar"
+    "Edit": "Editar"
+    "Destroy": "Eliminar"
+    
