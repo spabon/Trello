@@ -23,26 +23,61 @@
     
       <section class="top-bar-section">
         <!-- Right Nav Section -->
+        
+       
         <ul class="right">
-          <li class="active"><a href="#">Sign Up</a></li>
-          <li>
-            <a href="#">Sign In</a>
+          
+          <% if member_signed_in? %>
+          
+          <li class="active">
+            <%= link_to current_member.email, edit_member_registration_path %>
           </li>
+          
+          <li>
+            <%= link_to 'Log Out', destroy_member_session_path, method: :delete %>
+          </li>
+          
+          <% else %>
+          
+           <li class="active">
+            <%= link_to 'Sing Up', new_member_registration_path %>
+          </li>
+          
+          <li>
+            <%= link_to 'Sing In', new_member_session_path %>
+          </li>
+          
+          
+          <% end %>
+          
         </ul>
-    
+        
+       
         <!-- Left Nav Section -->
         <ul class="left">
+          
+         <% if member_signed_in? %>  
+          
           <li>
             <%= link_to 'Members', members_path %>
           </li>
+       
           <li>
             <%= link_to 'Tasks', tasks_path %>          
           </li>
+          
+          <% end %>
+          
+          
         </ul>
       </section>
     </nav>
     <div class="row">
       <div class="columns large-12">
+        
+         <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+       
         <%= yield %>
       </div>
     </div>
