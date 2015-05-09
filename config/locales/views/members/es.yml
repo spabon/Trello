@@ -1,0 +1,8 @@
+es:
+    activerecord:
+        attributes:
+            member:
+             name: "Nombre"  
+                
+    "Sing Up": "Autenticarse"
+    "Sing In": "Entrar"

@@ -34,17 +34,17 @@
           </li>
           
           <li>
-            <%= link_to 'Log Out', destroy_member_session_path, method: :delete %>
+            <%= link_to t('Log Out'), destroy_member_session_path, method: :delete %>
           </li>
           
           <% else %>
           
            <li class="active">
-            <%= link_to 'Sing Up', new_member_registration_path %>
+            <%= link_to t('Sing Up'), new_member_registration_path %>
           </li>
           
           <li>
-            <%= link_to 'Sing In', new_member_session_path %>
+            <%= link_to t('Sing In'), new_member_session_path %>
           </li>
           
           
@@ -59,11 +59,11 @@
          <% if member_signed_in? %>  
           
           <li>
-            <%= link_to 'Members', members_path %>
+            <%= link_to t('Members'), members_path %>
           </li>
        
           <li>
-            <%= link_to 'Tasks', tasks_path %>          
+            <%= link_to t('Tasks'), tasks_path %>          
           </li>
           
           <% end %>

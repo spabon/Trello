@@ -1,0 +1,12 @@
+es:
+    activerecord:
+        attributes:
+            task:
+                Title: "Titulo"
+                Duration: "Duración"
+                Start: "Fecha de Inicio"
+                End: "Fecha de Finalizacion"
+                Member: "Creado por"
+                Check: "Chequeado"
+                
+    "Listing tasks": "Listado de Tareas"
