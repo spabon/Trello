@@ -18,7 +18,7 @@
         <td><%= member.email %></td>
         <td><%= link_to t('Show'), member %></td>
         <td><%= link_to t('Edit'), edit_member_path(member) %></td>
-        <td><%= link_to t('Destroy)', member, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t('Destroy'), member, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Member', new_member_path %>
+<%= link_to t('New Member'), new_member_path %>

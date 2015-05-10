@@ -1,0 +1,5 @@
+es:
+pirate:
+  time:
+    formats:
+      name: "arrrround %H'ish"

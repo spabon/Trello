@@ -2,7 +2,7 @@ es:
     activerecord:
         attributes:
             member:
-              
+         
              
      
      
@@ -12,4 +12,4 @@ es:
     "Show": "Mostrar"
     "Edit": "Editar"
     "Destroy": "Eliminar"
-    
+    "New Member": "Nuevo Miembro"
