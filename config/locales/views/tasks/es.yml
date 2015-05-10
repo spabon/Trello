@@ -7,10 +7,13 @@ es:
                 
                 
                 
-    "Title": "Titulo"           
+    "Title": "Titulo"     
+    "title": "Titulo"
     "Listing tasks": "Listado de Tareas"
     "Duration": "Duracion"
+    "duration": "Duración"
     "Start": "Iniciar"
+    "start": "Inicio de Tarea"
     "End": "Fin"
     "Member": "Miembros"
     "Members": "Miembros"
@@ -19,6 +22,5 @@ es:
     "New Task": "Nueva Tarea"
     "New task": "Nueva Tarea"
     "description": "Descripción"
-    "star": "Iniciar"
     "Log Out": "Salir"
     

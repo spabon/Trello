@@ -7,9 +7,26 @@ es:
      
      
     "Name": "Nombre"            
-    "Sing Up": "Autenticarse"
+    "Sing Up": "Registrarse"
     "Sing In": "Entrar"
     "Show": "Mostrar"
     "Edit": "Editar"
     "Destroy": "Eliminar"
     "New Member": "Nuevo Miembro"
+    "name": "Nombre"
+    "lastname": "Segundo Nombre"
+    "email": "Correo electrónico"
+    "New member": "Nuevo Miembro"
+    
+    "username": "Nombre de Usuario"
+    "lastname": "Segundo Nombre"
+    "email": "Correo Electrónico"
+    "Sign up": "Registrese"
+    "password": "Contraseña"
+    "password_confirmation": "Confirme la Contraseña"
+    "Sign up": "Registrar"
+    
+    
+    "Log in": "Por favor Inicie Sesión"
+    "remember_me": "Recordarme"
+    
